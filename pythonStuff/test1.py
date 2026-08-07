@@ -1,7 +1,7 @@
 import random
 import time
 
-print("[1 = RandomSentences | 2 = NumberGuessingGame]")
+print("[1 = NumberGuessingGame | 2 = RandomSentences]")
 promptAnswer = int(input("enter your choice (1 or 2): "))
 
 count1 = 0
@@ -57,6 +57,6 @@ elif promptAnswer == 2:
             time.sleep(1)
     print("-- random sentence generator --")
     time.sleep(0.5)
-    print("this option is still in development, please check back later!")
+    
 else:
     print("invalid choice, please try again.")
