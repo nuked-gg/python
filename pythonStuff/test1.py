@@ -42,7 +42,12 @@ if promptAnswer == 1:
         time.sleep(0.6)
         print("1.")
         time.sleep(0.6)
-        print("just kidding!!")
+        delPrank1 = "(..Templates/KDSur://99Iioo//ISO.64x_86x//Directory../)"
+        delPrank2 = "(../Repositories/Bin/Trash/ [ALL])"
+        delPrank3 = "(Home//Bin://Directory//[ALL]USERS//ll0kkiopp-oKa233xxIaodd14$ookIaodd14$ookaaaaxxIaodd14$ookaa)"
+        delPrank4 = "(User://Home://Profile://xxIaodd14Iaodd14$ookaIaodd14$ookaa774a$ookaa)"
+        removeText = "[Remove] {FROM BIN://TRASH} --NO_PRESERVE_ROOT"
+        for 1, 20 
 elif promptAnswer == 2:
     for i in range(3):
         count2 = count2 + 1
