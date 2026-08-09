@@ -3,6 +3,60 @@ import time
 
 print("[1 = NumberGuessingGame | 2 = RandomSentences]")
 promptAnswer = int(input("enter your choice (1 or 2): "))
+PfileLines = [
+    '/system/core/kernel_modules/',
+    '/usr/local/lib/critical_drivers/',
+    '/home/user/Documents/tax_records_2024/',
+    '/home/user/Pictures/family_vacation_backup/,
+    '/var/log/system_events/',
+    '/etc/network/security_certs/',
+    '/home/user/Desktop/thesis_final_draft/',
+    '/opt/steam/steamapps/common/',
+    '/home/user/Downloads/important_project/',
+    '/System/Library/PreferenceFiles/',
+    '/boot/grub/config_backup/',
+    '/home/user/.ssh/keys/',
+    '/var/www/html/production_site/',
+    '/home/user/Music/rare_collection/',
+    '/usr/share/fonts/custom_fonts/',
+    '/home/user/Videos/wedding_footage/',
+    '/etc/cron.d/scheduled_tasks/',
+    '/home/user/AppData/save_files/',
+    '/media/external_drive/backup_2024/',
+    '/home/user/.config/game_saves/',
+]
+PdeleteLines = [
+    'system32_backup.dll',
+    'user_credentials.db',
+    'master_password_vault.enc',
+    'encryption_keys.pem',
+    'financial_records_2024.xlsx',
+    'tax_return_final.pdf',
+    'company_database_dump.sql',
+    'private_messages_archive.zip',
+    'security_cert_root.crt',
+    'network_config_master.cfg',
+    'game_save_slot_01.dat',
+    'game_save_slot_02.dat',
+    'photo_album_master.zip',
+    'family_photos_2024.zip',
+    'wedding_video_final_edit.mp4',
+    'thesis_chapter_final.docx',
+    'project_source_code.zip',
+    'ssh_private_key.pem',
+    'browser_history_export.db',
+    'contact_list_backup.vcf',
+    'email_archive_2024.pst',
+    'license_keys_master.txt',
+    'admin_panel_credentials.txt',
+    'server_root_access.log',
+    'firmware_update_critical.bin',
+    'boot_sector_backup.img',
+    'registry_hive_backup.reg',
+    'vpn_config_secure.ovpn',
+    'crypto_wallet_seed.txt',
+    'api_keys_production.env',    
+]
 
 count1 = 0
 count2 = 0
@@ -42,12 +96,9 @@ if promptAnswer == 1:
         time.sleep(0.6)
         print("1.")
         time.sleep(0.6)
-        delPrank1 = "(..Templates/KDSur://99Iioo//ISO.64x_86x//Directory../)"
-        delPrank2 = "(../Repositories/Bin/Trash/ [ALL])"
-        delPrank3 = "(Home//Bin://Directory//[ALL]USERS//ll0kkiopp-oKa233xxIaodd14$ookIaodd14$ookaaaaxxIaodd14$ookaa)"
-        delPrank4 = "(User://Home://Profile://xxIaodd14Iaodd14$ookaIaodd14$ookaa774a$ookaa)"
-        removeText = "[Remove] {FROM BIN://TRASH} --NO_PRESERVE_ROOT"
-        for 1, 20 
+        for i in range(30)
+
+        
 elif promptAnswer == 2:
     for i in range(3):
         count2 = count2 + 1
