@@ -46,4 +46,6 @@ charactersToSolve = promptAnswer2
 if promptAnswer2 == charactersToSolve:
     characterCount = len(charactersToSolve)
     print("-" * characterCount)
+    trueString_toSolve = list(charactersToSolve)
+    print(trueString_toSolve[3])
 
